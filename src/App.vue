@@ -11,7 +11,9 @@
     </main>
 
     <!-- FOOTER -->
-    <footer>footer</footer>
+    <footer>
+      <FooterBig/>
+    </footer>
     
   </div>
 </template>
@@ -21,6 +23,7 @@
 import Header from '@/components/Header.vue';
 import Content from '@/components/Content.vue';
 import Buy from '@/components/Buy.vue';
+import FooterBig from '@/components/FooterBig.vue';
 
 export default {
   name: 'App',
@@ -28,6 +31,7 @@ export default {
     Header,
     Content,
     Buy,
+    FooterBig,
   },
 };
 </script>
@@ -46,6 +50,10 @@ body {
 .container {
   max-width: 1200px;
   margin: auto;
+}
+
+img {
+  max-width: 100%;
 }
 
 </style>
