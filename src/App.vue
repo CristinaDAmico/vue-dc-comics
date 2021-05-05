@@ -13,6 +13,7 @@
     <!-- FOOTER -->
     <footer>
       <FooterBig/>
+      <FooterSmall/>
     </footer>
     
   </div>
@@ -24,6 +25,7 @@ import Header from '@/components/Header.vue';
 import Content from '@/components/Content.vue';
 import Buy from '@/components/Buy.vue';
 import FooterBig from '@/components/FooterBig.vue';
+import FooterSmall from '@/components/FooterSmall.vue';
 
 export default {
   name: 'App',
@@ -32,6 +34,7 @@ export default {
     Content,
     Buy,
     FooterBig,
+    FooterSmall
   },
 };
 </script>
