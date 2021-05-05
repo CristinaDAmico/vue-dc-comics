@@ -6,7 +6,8 @@
 
     <!-- MAIN -->
     <main>
-     <Content/>
+     <Jumbotron/>
+     <Hero/>
      <Buy/>
     </main>
 
@@ -22,7 +23,8 @@
 
 <script>
 import Header from '@/components/Header.vue';
-import Content from '@/components/Content.vue';
+import Jumbotron from '@/components/Jumbotron.vue';
+import Hero from '@/components/Hero.vue';
 import Buy from '@/components/Buy.vue';
 import FooterBig from '@/components/FooterBig.vue';
 import FooterSmall from '@/components/FooterSmall.vue';
@@ -31,7 +33,8 @@ export default {
   name: 'App',
   components: {
     Header,
-    Content,
+    Jumbotron,
+    Hero,
     Buy,
     FooterBig,
     FooterSmall
